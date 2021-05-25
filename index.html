@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Heinz Heinz Wittenbrink">
+  <meta name="author" content="Heinz Wittenbrink">
   <meta name="dcterms.date" content="2021-05-25">
-  <title>Content Management Systeme heute</title>
+  <title>Content Management Systeme—Neue Trends</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,44 +27,136 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">Content Management Systeme heute</h1>
-  <p class="author">Heinz Heinz Wittenbrink</p>
+  <h1 class="title">Content Management Systeme—Neue Trends</h1>
+  <p class="author">Heinz Wittenbrink</p>
   <p class="date">2021-05-25</p>
 </section>
 
-<section id="content-als-eigenes-layer-vs.-content-als-teil-einer-publikation" class="slide level1">
-<h1>Content als eigenes Layer vs. Content als Teil einer Publikation</h1>
+<section id="themenstichwörter" class="slide level1">
+<h1>Themen/Stichwörter</h1>
+<ul>
+<li>Craft CML</li>
+<li>Headless CMS</li>
+<li>Static Site Generator</li>
+<li>Content Modelling</li>
+<li>Wie hängt das zusammen?</li>
+</ul>
+</section>
+<section id="content-als-eigenes-layer" class="slide level1">
+<h1>Content als eigenes Layer</h1>
+<ul>
+<li>Traditionell: Content als Teil einer Publikation</li>
+<li>Verschiedene Zugriffe auf Inhalte</li>
+<li>Agiles Entwickeln von Inhalten und Anwendungen</li>
+</ul>
+<aside class="notes">
 <p>Ich möchte heute kurz einiges über neue Entwicklungen bei Content Management Systemen erzählen. Zwar verwenden die meisten Websites heute noch Systeme wie Wordpress und Typo 3, also das, was wir als CMS kennen. Aber seit etwa 10 Jahren hat sich die Welt der Content Management Systeme deutlich verändert. Das wichtigste Stichwort oder Buzzword heisst dabei <em>headless</em>. Gemeint ist damit, dass der Prozess der dynamischen Seiten-Generierung, wie wir ihn von den traditionellen Content Management Systemen kennen, nicht mehr bestimmt, wie ein Content Management System organisiert ist. Content Management Systeme sind für den Content zuständig, aber nicht mehr dafür, wie dieser Inhalt weiterverarbeitet und publiziert wird.</p>
-<p>Headless</p>
+</aside>
+</section>
+<section id="headless" class="slide level1">
+<h1>Headless</h1>
 <p>Warum man von einem Headless CMS spricht, erklärt ganz kurz dieses Video:</p>
-<p>Gute kurze Erklärung: <a href="https://www.youtube.com/watch?v=-Uor3I0n_vQ">(279) Headless CMS explained in 2 minutes - YouTube</a></p>
+<p><a href="https://www.youtube.com/watch?v=-Uor3I0n_vQ">Headless CMS explained in 2 minutes - YouTube</a></p>
 </section>
 <section id="content-modelling" class="slide level1">
 <h1>Content Modelling</h1>
+<ul>
+<li>Inhalt muss unabhängig von Seiten (oder Websites) strukturiert werden.</li>
+<li><em>Content Model</em>: Struktur der Inhalte insgesamt</li>
+<li><em>Content Type</em>: Struktur einer bestimmten Art von Inhalten</li>
+</ul>
+<aside class="notes">
 <p>Durch die Headless CMS ist ein Aspekt des Content Managements in den Vordergrund gerückt, der bisher oft dadurch verdeckt war, dass die Inhalte in einem CMS Seiten zugeordnet waren. Wenn die Seite die grundlegende Einheit für die Inhalte ist, dann muss man sich nicht unbedingt um eine zusätzliche formale Struktur bemühen. Wenn aber der Inhalt von Seiten unabhängig ist, wie z.B. bei Single Page-Applikationen, dann muss die inhaltliche Struktur für sich definiert werden.</p>
+</aside>
+</section>
+<section id="content-modelling-in-modernen-cms" class="slide level1">
+<h1>Content Modelling in modernen CMS</h1>
 <p><a href="https://www.storyblok.com/docs/guide/essentials/content-structures">Structures of Content - Storyblok</a></p>
 <p>https://craftcms.com/docs/getting-started-tutorial/configure/modeling.html#get-familiar-with-content-modeling-in-craft</p>
 </section>
-<section id="wie-wird-der-inhalt-publiziert" class="slide level1">
-<h1>Wie wird der Inhalt publiziert?</h1>
+<section id="wo-wird-der-inhalt-publiziert" class="slide level1">
+<h1>Wo wird der Inhalt publiziert</h1>
+<ul>
+<li>Traditionelle Websites</li>
+<li>Single Page Apps</li>
+<li>Progressive Web Apps</li>
+<li>IOS-/Android Apps</li>
+<li>Alexa Skill …</li>
+</ul>
+<aside class="notes">
 <p>Wenn der Inhalt so strukturiert vorliegt und zugänglich ist, dann kann völlig unterschiedlich publizieret werden, und man kann verschiedene Publikationsmöglichkeiten kombinieren und sie auch schnell wechseln oder weiterentwickeln. Inhalte sind Komponenten von Applikationen, die sehr unterschiedlich Funktionen haben können.</p>
 <p>Es kann sein, dass derselbe Inhalt für manche Clients serverseitig gerendert wird, und dass bei anderen der Client für das Rendering zuständig ist. Es kann auch beides miteinander verbunden sein, und es können in die Inhalte Komponenten aus anderen Quellen integriert sein. Genau dafür passt das Modell eines monolithischen System nicht.</p>
-<p>Static Site Generators</p>
-<p><img data-src="https://static.agilitycms.com/cms-vs-ssg-y.png" /> aus <a href="https://agilitycms.com/resources/posts/what-s-the-difference-between-headless-cms-and-static-site-generator">What’s the Difference between Headless CMS and Static Site Generator? | Agility CMS</a></p>
-<p>Single Page Apps</p>
+</aside>
 </section>
-<section id="apis" class="slide level1">
-<h1>APIs</h1>
-<h2 id="rest-apis">REST APIs</h2>
-<h2 id="graphql-apis">GraphQl APIs</h2>
-<p>—-</p>
-<p>Lichtblick</p>
-<p>Content as code</p>
-<p>Static site generator for. Static content React for dynamic content, both possible by API access</p>
-<p>Main reasons for choice: scalability and flexibility</p>
-<p>Keine on premises Systeme mehr</p>
-<p>https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/</p>
-<p>Headless CMS für News-Organisationen: <a href="https://www.youtube.com/watch?v=MQ09P2Fz4Io" title="(279) Superdesk Essentials: Welcome to Superdesk, Your New Digital Newsroom - YouTube">(279) Superdesk Essentials: Welcome to Superdesk, Your New Digital Newsroom - YouTube</a></p>
+<section id="static-site-generators" class="slide level1">
+<h1>Static Site Generators</h1>
+<p><img data-src="https://static.agilitycms.com/cms-vs-ssg-y.png" /> aus <a href="https://agilitycms.com/resources/posts/what-s-the-difference-between-headless-cms-and-static-site-generator" width="50%">What’s the Difference between Headless CMS and Static Site Generator? | Agility CMS</a></p>
+<ul>
+<li>Seiten werden zusammen produziert und als Verzeichnis auf den Web Server gestellt</li>
+<li>Performance Vorteile</li>
+<li>Flexibilität durch Templating Engines</li>
+</ul>
+</section>
+<section id="single-page-apps" class="slide level1">
+<h1>Single Page Apps</h1>
+<ul>
+<li>Vorbild Mobile Applikationen</li>
+<li>Erzeugung meist mit Javascript-Frameworks</li>
+<li>Server- und Clientseitiges Rendering als Optionen</li>
+<li>Beispiel: <a href="https://qastack.com.de/programming/27290354/reactjs-server-side-rendering-vs-client-side-rendering" title="ReactJS serverseitiges Rendering vs. clientseitiges Rendering">ReactJS serverseitiges Rendering vs. clientseitiges Rendering</a></li>
+</ul>
+</section>
+<section id="apis-für-inhalte" class="slide level1">
+<h1>APIs für Inhalte</h1>
+<ul>
+<li><strong>A</strong>pplication <strong>P</strong>rogramming <strong>I</strong>nterfaces</li>
+<li>Zugriff durch beliebige Applikationen</li>
+<li>Lose Kopplung von Inhalten und Funktionalitäten</li>
+</ul>
+</section>
+<section id="rest-apis" class="slide level1">
+<h1>REST APIs</h1>
+<ul>
+<li>Zugriff auf Inhalte über HTTP</li>
+<li>Webtypische, offene Schnittstelle</li>
+</ul>
+</section>
+<section id="graphql-apis" class="slide level1">
+<h1>GraphQl APIs</h1>
+<ul>
+<li>Beschreibung der Inhalten</li>
+<li>Minimierung von HTTP-Zugriffen</li>
+<li><a href="https://graphql.org/" title="GraphQL | A query language for your API">GraphQL | A query language for your API</a></li>
+</ul>
+</section>
+<section id="beispiel-contentfullichtblick" class="slide level1">
+<h1>Beispiel Contentful/LichtBlick</h1>
+<p><a href="https://www.contentful.com/case-studies/lichtblick/" title="LichtBlick | Contentful">LichtBlick | Contentful</a></p>
+<p>Video: <a href="https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/" class="uri">https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/</a></p>
+<h2 id="section"></h2>
+<ul>
+<li>Content as code</li>
+<li>Static site generator for static content</li>
+<li>React for dynamic content, both possible by API access</li>
+<li>Main reasons for choice: scalability and flexibility</li>
+<li>Keine on premises Systeme mehr</li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<p><img data-src="lichtblick-architecture.png" /></p>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<p><img data-src="lichtblick-agile.png" /></p>
+</section>
+<section id="section-3" class="slide level1">
+<h1></h1>
+<p><img data-src="lichtblick-performance.png" /></p>
+</section>
+<section id="headless-cms-für-news-organisationen" class="slide level1">
+<h1>Headless CMS für News-Organisationen:</h1>
+<p><a href="https://www.youtube.com/watch?v=MQ09P2Fz4Io" title="(279) Superdesk Essentials: Welcome to Superdesk, Your New Digital Newsroom - YouTube">Superdesk Essentials: Welcome to Superdesk, Your New Digital Newsroom - YouTube</a></p>
 </section>
     </div>
   </div>
