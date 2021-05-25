@@ -53,6 +53,11 @@
 <p>Ich möchte heute kurz einiges über neue Entwicklungen bei Content Management Systemen erzählen. Zwar verwenden die meisten Websites heute noch Systeme wie Wordpress und Typo 3, also das, was wir als CMS kennen. Aber seit etwa 10 Jahren hat sich die Welt der Content Management Systeme deutlich verändert. Das wichtigste Stichwort oder Buzzword heisst dabei <em>headless</em>. Gemeint ist damit, dass der Prozess der dynamischen Seiten-Generierung, wie wir ihn von den traditionellen Content Management Systemen kennen, nicht mehr bestimmt, wie ein Content Management System organisiert ist. Content Management Systeme sind für den Content zuständig, aber nicht mehr dafür, wie dieser Inhalt weiterverarbeitet und publiziert wird.</p>
 </aside>
 </section>
+<section id="craft-cms" class="slide level1">
+<h1>Craft CMS</h1>
+<p>Beispiel: <a href="https://oer.putyourlightson.dev/" title="Content Strategy EN">Content Strategy</a></p>
+<p>Admin-Interface: <a href="https://oer.putyourlightson.dev/admin/entries/lectureReports" title="Entries - Content Strategy">Entries - Content Strategy</a></p>
+</section>
 <section id="headless" class="slide level1">
 <h1>Headless</h1>
 <p>Warum man von einem Headless CMS spricht, erklärt ganz kurz dieses Video:</p>
@@ -72,7 +77,7 @@
 <section id="content-modelling-in-modernen-cms" class="slide level1">
 <h1>Content Modelling in modernen CMS</h1>
 <p><a href="https://www.storyblok.com/docs/guide/essentials/content-structures">Structures of Content - Storyblok</a></p>
-<p>https://craftcms.com/docs/getting-started-tutorial/configure/modeling.html#get-familiar-with-content-modeling-in-craft</p>
+<p><a href="https://craftcms.com/docs/getting-started-tutorial/configure/modeling.html#get-familiar-with-content-modeling-in-craft" class="uri">https://craftcms.com/docs/getting-started-tutorial/configure/modeling.html#get-familiar-with-content-modeling-in-craft</a></p>
 </section>
 <section id="wo-wird-der-inhalt-publiziert" class="slide level1">
 <h1>Wo wird der Inhalt publiziert</h1>
@@ -88,13 +93,25 @@
 <p>Es kann sein, dass derselbe Inhalt für manche Clients serverseitig gerendert wird, und dass bei anderen der Client für das Rendering zuständig ist. Es kann auch beides miteinander verbunden sein, und es können in die Inhalte Komponenten aus anderen Quellen integriert sein. Genau dafür passt das Modell eines monolithischen System nicht.</p>
 </aside>
 </section>
-<section id="static-site-generators" class="slide level1">
-<h1>Static Site Generators</h1>
-<p><img data-src="https://static.agilitycms.com/cms-vs-ssg-y.png" /> aus <a href="https://agilitycms.com/resources/posts/what-s-the-difference-between-headless-cms-and-static-site-generator" width="50%">What’s the Difference between Headless CMS and Static Site Generator? | Agility CMS</a></p>
+<section id="ssgs" class="slide level1">
+<h1>SSGs</h1>
+<p><img data-src="https://static.agilitycms.com/cms-vs-ssg-y.png" /> aus <a href="https://agilitycms.com/resources/posts/what-s-the-difference-between-headless-cms-and-static-site-generator" width="30%">What’s the Difference between Headless CMS and Static Site Generator? | Agility CMS</a></p>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
 <ul>
 <li>Seiten werden zusammen produziert und als Verzeichnis auf den Web Server gestellt</li>
 <li>Performance Vorteile</li>
 <li>Flexibilität durch Templating Engines</li>
+</ul>
+</section>
+<section id="beispiel-ssgs" class="slide level1">
+<h1>Beispiel SSGs</h1>
+<ul>
+<li><a href="https://www.11ty.dev/" title="Eleventy is a simpler static site generator.">Eleventy is a simpler static site generator.</a></li>
+<li>Lokale Files</li>
+<li>Github: <a href="https://github.com/heinzwittenbrink/offgallery_at" title="heinzwittenbrink/offgallery_at: For the development of the website of the offgallery graz - and for learning eleventy and related stuff">heinzwittenbrink/offgallery_at</a></li>
+<li>Publikation via Netlify: <a href="https://app.netlify.com/teams/heinzwittenbrink/overview" title="Team overview | Heinz Wittenbrink&#39;s team">Team overview | Heinz Wittenbrink’s team</a></li>
 </ul>
 </section>
 <section id="single-page-apps" class="slide level1">
@@ -133,7 +150,9 @@
 <h1>Beispiel Contentful/LichtBlick</h1>
 <p><a href="https://www.contentful.com/case-studies/lichtblick/" title="LichtBlick | Contentful">LichtBlick | Contentful</a></p>
 <p>Video: <a href="https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/" class="uri">https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/</a></p>
-<h2 id="section"></h2>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
 <ul>
 <li>Content as code</li>
 <li>Static site generator for static content</li>
@@ -142,17 +161,17 @@
 <li>Keine on premises Systeme mehr</li>
 </ul>
 </section>
-<section id="section-1" class="slide level1">
-<h1></h1>
-<p><img data-src="lichtblick-architecture.png" /></p>
-</section>
 <section id="section-2" class="slide level1">
 <h1></h1>
-<p><img data-src="lichtblick-agile.png" /></p>
+<p><img data-src="pics/lichtblick-architecture.png" /></p>
 </section>
 <section id="section-3" class="slide level1">
 <h1></h1>
-<p><img data-src="lichtblick-performance.png" /></p>
+<p><img data-src="pics/lichtblick-agile.png" /></p>
+</section>
+<section id="section-4" class="slide level1">
+<h1></h1>
+<p><img data-src="pics/lichtblick-performance.png" /></p>
 </section>
 <section id="headless-cms-für-news-organisationen" class="slide level1">
 <h1>Headless CMS für News-Organisationen:</h1>

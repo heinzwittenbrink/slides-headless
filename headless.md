@@ -5,6 +5,13 @@ date: 2021-05-25
 
 ---
 
+#
+
+Präsentation: [Content Management Systeme—Neue Trends](https://heinzwittenbrink.github.io/slides-headless/#/title-slide "Content Management Systeme—Neue Trends")
+
+Text: <https://github.com/heinzwittenbrink/slides-headless/blob/main/headless.md>
+
+
 # Themen/Stichwörter
 
 - Craft CML
@@ -25,6 +32,14 @@ date: 2021-05-25
 Ich möchte heute kurz einiges über neue Entwicklungen bei Content Management Systemen erzählen. Zwar verwenden die meisten Websites heute noch Systeme wie Wordpress und Typo 3, also das, was wir als CMS kennen. Aber seit etwa 10 Jahren hat sich die Welt der Content Management Systeme deutlich verändert. Das wichtigste Stichwort oder Buzzword heisst dabei *headless*. Gemeint ist damit, dass der Prozess der dynamischen Seiten-Generierung, wie wir ihn von den traditionellen Content Management Systemen kennen, nicht mehr bestimmt, wie ein Content Management System organisiert ist. Content Management Systeme sind für den Content zuständig, aber nicht mehr dafür, wie dieser Inhalt weiterverarbeitet und publiziert wird.
 
 :::
+
+
+# Craft CMS
+
+Beispiel: [Content Strategy](https://oer.putyourlightson.dev/ "Content Strategy EN")
+
+
+Admin-Interface: [Entries - Content Strategy](https://oer.putyourlightson.dev/admin/entries/lectureReports "Entries - Content Strategy")
 
 # Headless
 
@@ -49,7 +64,7 @@ Durch die Headless CMS ist ein Aspekt des Content Managements in den Vordergrund
 
 [Structures of Content \- Storyblok](https://www.storyblok.com/docs/guide/essentials/content-structures)
 
-https://craftcms.com/docs/getting-started-tutorial/configure/modeling.html#get-familiar-with-content-modeling-in-craft
+<https://craftcms.com/docs/getting-started-tutorial/configure/modeling.html#get-familiar-with-content-modeling-in-craft>
 
 
 # Wo wird der Inhalt publiziert
@@ -69,13 +84,24 @@ Es kann sein, dass derselbe Inhalt für manche Clients serverseitig gerendert wi
 :::
 
 
-# Static Site Generators
+# SSGs
 
-![](https://static.agilitycms.com/cms-vs-ssg-y.png) aus [What's the Difference between Headless CMS and Static Site Generator? \| Agility CMS](https://agilitycms.com/resources/posts/what-s-the-difference-between-headless-cms-and-static-site-generator){width=50%}
+![](https://static.agilitycms.com/cms-vs-ssg-y.png) aus [What's the Difference between Headless CMS and Static Site Generator? \| Agility CMS](https://agilitycms.com/resources/posts/what-s-the-difference-between-headless-cms-and-static-site-generator){width="30%"}
+
+#
 
 - Seiten werden zusammen produziert und als Verzeichnis auf den Web Server gestellt
 - Performance Vorteile
 - Flexibilität durch Templating Engines
+
+# Beispiel SSGs
+
+- [Eleventy is a simpler static site generator.](https://www.11ty.dev/ "Eleventy is a simpler static site generator.")
+- Lokale Files
+- Github: [heinzwittenbrink/offgallery_at](https://github.com/heinzwittenbrink/offgallery_at "heinzwittenbrink/offgallery_at: For the development of the website of the offgallery graz - and for learning eleventy and related stuff")
+- Publikation via Netlify: [Team overview | Heinz Wittenbrink's team](https://app.netlify.com/teams/heinzwittenbrink/overview "Team overview | Heinz Wittenbrink's team")
+
+
 
 # Single Page Apps
 
@@ -109,7 +135,7 @@ Es kann sein, dass derselbe Inhalt für manche Clients serverseitig gerendert wi
 
 Video: <https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/>
 
-##
+#
 
 - Content as code
 - Static site generator for static content
@@ -119,16 +145,16 @@ Video: <https://www.contentful.com/events/2011-dxpertsinaction-dach/watch/>
 
 #
 
-![](lichtblick-architecture.png)
+![](pics/lichtblick-architecture.png)
 
 #
 
-![](lichtblick-agile.png)
+![](pics/lichtblick-agile.png)
 
 
 #
 
-![](lichtblick-performance.png)
+![](pics/lichtblick-performance.png)
 
 
 #  Headless CMS für News-Organisationen:
